@@ -1,7 +1,7 @@
 # Ansible-Workshop
-Ich habe eine Ansible-Rolle erstellt, anhand derer wir gemeinsam einige Übungen durchführen wollen.
+Ich habe eine Ansible Role erstellt, anhand derer wir gemeinsam einige Übungen durchführen wollen.
 
-Den gesamten Code mit Dokumentation findet ihr hier im [GitHub Repository](https://github.com/mboehm21/ansible-guac-setup). Weiterhin ist die Rolle bereits in [Ansible Galaxy](https://galaxy.ansible.com/mboehm21/guacamole_rdp) verfügbar.
+Den gesamten Code mit Dokumentation findet ihr hier im [GitHub Repository](https://github.com/mboehm21/ansible-guac-setup). Weiterhin ist die Role bereits in [Ansible Galaxy](https://galaxy.ansible.com/mboehm21/guacamole_rdp) verfügbar.
 
 ## Erster Überblick
 
@@ -41,7 +41,7 @@ Schaut euch bitte die Tasks und default-Werte an, die zu der Role gehören und v
 
 ## Praxis
 
-Wenn ihr eine Test-Maschine mit unterstütztem Betriebssystem und Internetzugang zur Verfügung habt, könnt ihr die Rolle ganz einfach ausprobieren.
+Wenn ihr eine Test-Maschine mit unterstütztem Betriebssystem und Internetzugang zur Verfügung habt, könnt ihr die Role ganz einfach ausprobieren.
 
 1. Nutzt git, um euch das Repository auszuchecken:
 
@@ -77,4 +77,4 @@ localhost                  : ok=24   changed=13   unreachable=0    failed=0    s
 
 1. Gab es Probleme bei eurem Setup? Konntet ihr diese lösen?
 
-2. Was würdet ihr verbessern, um die Rolle produktiv einzusetzen? Welche Ideen habt ihr für eine finale Version?
+2. Was würdet ihr verbessern, um die Role produktiv einzusetzen? Welche Ideen habt ihr für eine finale Version?
