@@ -3,21 +3,21 @@ Ich habe eine Ansible Role erstellt, anhand derer wir gemeinsam einige Übungen 
 
 Den gesamten Code mit Dokumentation findet ihr hier im [GitHub Repository](https://github.com/mboehm21/ansible-guac-setup). Weiterhin ist die Role bereits in [Ansible Galaxy](https://galaxy.ansible.com/mboehm21/guacamole_rdp) verfügbar.
 
+## Ziel der Übung
+
+Die Teilnehmer sollen sich mit einer zunächst unbekannten Ansible Role vertraut machen, sich ein Verständnis für deren Funktion erarbeiten und Optimierungspotenziale für den praktischen Einsatz erkennen.
+
 ## Erster Überblick
 
 Schaut euch bitte zunächst einmal im Repository um und versucht dabei die folgenden Fragen zu beantworten. Die README.md-Datei und Meta-Daten für Ansible Galaxy werden euch dabei helfen.
 
 1. Was ist der Anwendungsfall der vorliegenden Ansible Role?
 
-
 2. Welche Betriebssysteme und Versionen werden momentan unterstützt?
-
 
 3. Gegen welche Betriebssysteme und Versionen wird von der CI (GitHub Actions) automatisch getestet?
 
-
 4. Mit welchem Tag muss die Role aufgerufen werden, um angelegte Files und Container wieder vollständig zu zerstören?
-
 
 5. Bei welchem Ereignis wird von der CI (GitHub Actions) automatisch eine neue Version der Role in Ansible Galaxy zur Verfügung gestellt?
 
@@ -27,9 +27,7 @@ Schaut euch bitte die Tasks und default-Werte an, die zu der Role gehören und v
 
 1. Welche Docker-Images in welchen Versionen werden verwendet, um die Anwendung zu deployen?
 
-
-2. Wie viele Terminalserver-Container werden standardmäßig gestartet? An welcher Stelle in der Role wird dies erreicht?
-
+2. Wie viele Terminalserver-Container werden standardmäßig gestartet? An welcher Stelle in der Role wird dies erreicht? Wie könnte man das umkonfigurieren?
 
 3. Welche Nutzer werden standardmäßig als Admins in der Anwendung angelegt. Wie wird erreicht, dass diese Nutzer auch in den Terminalserver-Containern sudo-Rechte erhalten?
 
