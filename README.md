@@ -67,7 +67,7 @@ PLAY RECAP *********************************************************************
 localhost                  : ok=24   changed=13   unreachable=0    failed=0    skipped=2    rescued=0    ignored=0
 ```
 
-3. Ihr solltet nun die Anwendung per Web-Browser unter [127.0.0.1:8080/guacamole/](127.0.0.1:8080/guacamole/) erreichen können, euch einloggen und verschiedenste Sachen ausprobieren.
+3. Ihr solltet nun die Anwendung per Web-Browser unter [http://127.0.0.1:8080/guacamole/](http://127.0.0.1:8080/guacamole/) erreichen können, euch einloggen und verschiedenste Sachen ausprobieren.
 
 4. Zerstört die Anwendung wieder mit Hilfe der Role.
 
