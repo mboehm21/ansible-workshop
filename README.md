@@ -33,7 +33,7 @@ Schaut euch bitte die Tasks und default-Werte an, die zu der Role gehören und v
 
 4. An einer Stelle in den Tasks wird auf ein bestimmtes Ereignis gewartet. Wo und warum ist das erforderlich?
 
-5. [Hier](https://github.com/mboehm21/ansible-guac-setup/blob/9ee876f67adb23fdfccaba7641665e69dde29914/tasks/main.yml#L138) wird eine block/rescue-Struktur genutzt. Wozu ist diese notwendig?
+5. [Hier](https://github.com/mboehm21/ansible-guac-setup/blob/main/tasks/main.yml#L138) wird eine block/rescue-Struktur genutzt. Wozu ist diese notwendig?
 
 6. Es gibt einen Config-Schalter `docker_mysql_persistence`. Was bewirkt dieser? Warum wäre er in Produktivsystemen unbedingt zu aktivieren?
 
